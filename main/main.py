@@ -222,8 +222,8 @@ expan = PhotoImage(file = r"images\expand.png")
 expanimage = expan.subsample(4,4)
 expan = Label(window, text="pi", fg="black",image=expanimage, bg="black").pack(side=BOTTOM)
 ##==================================================================================
-print("github : Jokernets","[download All Source Code]")
-print("https://github.com/imfallah/ios-c")
+print("github : imfallah","[download All Source Code]")
+print("https://github.com/imfallah/ios-calculator")
 
 #===============================================================================================
 window.mainloop()
