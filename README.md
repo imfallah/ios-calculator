@@ -45,8 +45,8 @@ Table of contents✅✔
 ## Install the Library with pip:
 
 ```python
-pip install opencv-python
-pip install cvzone
+pip install tk
+pip install pillow
 ```
 
 Update existing installation:`pip3 install (YOUR LIBRARY) --upgrade`
