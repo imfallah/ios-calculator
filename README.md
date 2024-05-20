@@ -20,22 +20,22 @@ Table of contents✅✔
 =================
 
 <!--ts-->
-   * 🔸[Installation⚠]()
-
-   * 🔸[About Code👨🏽‍💻]()
-     * 💫[importing](#0️⃣importing)
-     * 💫[Window](#1️⃣define)
-     * 💫[Functions](#2️⃣end)
-     * [simple Buttons]()
-     * [Number Butons]()
-     * [Engineering Button]()
-     * [Run it]()
+   * 🔸[Installation⚠](#installation)
+   
+   * 🔸[About Code👨🏽‍💻](#abot-code)
+     * 🏅[importing](#importing)
+     * 🏅[Window](#-widow)
+     * 🏅[Functions](#function)
+     * 🏅[simple Buttons](#buttons_1)
+     * 🏅[Number Butons](#number-buttons)
+     * 🏅[Engineering Button](#-engineering-button)
+     * 🏅[Run it](#-runing-)
 
 
    * 🔸[Mor Example💯🌏]()
      * 🥇[Project Video📺](#video-image-of-the-app-)
     
-   * 🎁[`CONNECT ME🎃`](#%F0%9D%90%82%F0%9D%90%A8%F0%9D%90%A7%F0%9D%90%A7%F0%9D%90%9E%F0%9D%90%9C%F0%9D%90%AD-%F0%9D%90%8C%F0%9D%90%9E)
+   * 🎁[`CONNECT ME🎃`](https://github.com/imfallah/ios-calculator/edit/main/README.md#%F0%9D%90%82%F0%9D%90%A8%F0%9D%90%A7%F0%9D%90%A7%F0%9D%90%9E%F0%9D%90%9C%F0%9D%90%AD-%F0%9D%90%8C%F0%9D%90%9E)
 
 <!--ts-->
 
@@ -243,20 +243,20 @@ equals = Button(mainFrame,activeforeground="black",activebackground="black", tex
 ## ➕`Number Buttons`:
 - "Zero": clicking this button adds 0 to the input text. It uses an image downloaded from "images\0.png".
 - 'nine': Clicking this button adds the number 9 to the input text. It uses an image downloaded from "images\nine.png".
-You continue this sequence until all the numbers 0 to 9, which you can see all of them in the [projectfile](https://github.com/jokernets/IOS-Calc)
+You continue this sequence until all the numbers 0 to 9, which you can see all of them in the [projectfile](https://github.com/imfallah/ios-calculator/tree/main/main)
 ```python
 # -- 0
 zero = PhotoImage(file = r"images\0.png")
 zeroimage = zero.subsample(4,4)
 zero = Button(mainFrame,activeforeground="black",activebackground="black", text="0", fg="black",image=zeroimage, bd=0, bg="black", cursor="hand2",
               command=lambda: clickButton(0)).grid(row=4, column=0, columnspan=2, padx=1, pady=1)
+```
 
+                                           
+###      0-1-2-3-4-5-6-7-8-9  
+                                       
 
-                                                  ....
-#                                            0-1-2-3-4-5-6-7-8-9
-                                                  ....
-
-
+```python
 # -- 9
 nine = PhotoImage(file = r"images\nine.png")
 nineimage = nine.subsample(4,4)
@@ -344,7 +344,7 @@ window.mainloop()
 
 <img src="https://github.com/imfallah/ios-calculator/raw/main/public/ioscac.mp4" width="200" height="400">
 
-# `𝐂𝐨𝐧𝐧𝐞𝐜𝐭 𝐌𝐞`🎈🎃
+# `𝐂𝐨𝐧𝐧𝐞𝐜𝐭 𝐌𝐞`🎮
 
 <a herf="https://www.buymeacoffee.com/jokernets"><img src="https://cdn.buymeacoffee.com/buttons/v2/arial-yellow.png" alt="Buy Me A Coffee" width="180px">
 <a href="mailto:joker.until33@gmail.com"><img align="center" width="60px" src="https://github.com/edent/SuperTinyIcons/raw/master/images/svg/gmail.svg" style="max-width: 100%;"></a><a href="https://www.linkedin.com/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/mohammadfallahnejad/" height="40" width="60" /></a>
