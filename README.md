@@ -4,12 +4,11 @@
 <h1 align="center">iOs calculator 😚👀</h1>
 
 
-### 🌏 Readme in [فارسی](https://github.com/jokernets/ios-calc/tree/main/Fa.md)
 
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
 <p align="center">
-<img src="https://img.shields.io/badge/language-python-blue?style"/><img src="https://img.shields.io/github/stars/jokernets/face-plot"/><img src="https://img.shields.io/github/forks/jokernets/face-plot"/>
+<img src="https://img.shields.io/badge/language-python-blue?style"/><img src="https://img.shields.io/github/stars/imfallah/ios-calculator"/><img src="https://img.shields.io/github/forks/imfallah/ios-calculator"/>
 </p>
 
    
@@ -57,7 +56,7 @@ Update existing installation:`pip3 install (YOUR LIBRARY) --upgrade`
 
 `tk==0.1.0` install this version ~> `pip install tk==0,1.0`
 `pillow==9.5.0` install this version ~> `pip install pillow==9.5.0`
-"python 3.8" [download python] (https://www.python.org)
+"python 3.8" [download python](https://www.python.org)
 
 # Abot Code🎃:
 
@@ -92,7 +91,7 @@ img=PhotoImage(file="images/OIP (1).png")
 window.iconphoto(True,img)
 ```
 
-<img src="1.png" width="200" height="400"></img>
+<img src="https://github.com/imfallah/ios-calculator/blob/main/public/1.png" width="200" height="400"></img>
 
 
 ## ➕`Function`:
@@ -180,7 +179,7 @@ window.config(bg="black",menu=menubar)
 ```
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br><img
                                                                                                                             
-<img src="2.png" width="200" height="400"></img>
+<img src="https://github.com/imfallah/ios-calculator/blob/main/public/2.png" width="200" height="400"></img>
 
 
 
@@ -239,7 +238,7 @@ equals = Button(mainFrame,activeforeground="black",activebackground="black", tex
                 command=lambda: equalButton()).grid(row=4, column=3, padx=1, pady=1)
 ```
 
-<img src="3.png" width="200" height="400"></img>
+<img src="https://github.com/imfallah/ios-calculator/blob/main/public/3.png" width="200" height="400"></img>
 
 ## ➕`Number Buttons`:
 - "Zero": clicking this button adds 0 to the input text. It uses an image downloaded from "images\0.png".
@@ -264,7 +263,7 @@ nineimage = nine.subsample(4,4)
 nine = Button(mainFrame,activeforeground="black",activebackground="black", text="9", fg="black", image=nineimage, bd=0, bg="black", cursor="hand2",
               command=lambda: clickButton(9)).grid(row=1, column=2, padx=1, pady=1)
 ```
-<img src="4.png" width="200" height="400"></img>
+<img src="https://github.com/imfallah/ios-calculator/blob/main/public/4.png" width="200" height="400"></img>
 
 ## ➕ Engineering Button:
 - `expan_btn`: This button calls the `expand()` function when clicked. It uses an image loaded from "images\expan_btn.png".
@@ -327,7 +326,7 @@ expanimage = expan.subsample(4,4)
 expan = Label(window, text="pi", fg="black",image=expanimage, bg="black").pack(side=BOTTOM)
 ```
 
-<img src="5.png" width="200" height="400"></img>
+<img src="https://github.com/imfallah/ios-calculator/blob/main/public/5.png" width="200" height="400"></img>
 ## ➕ Runing :
 - `window.mainloop()`: This line starts the Tkinter event loop. The application will stay in the event loop until the window is closed.
 
@@ -337,13 +336,13 @@ expan = Label(window, text="pi", fg="black",image=expanimage, bg="black").pack(s
 ```python
 window.mainloop()
 ```
-<img src="6.png" width="200" height="400"></img>  <img src="https://github.com/jokernets/IOS-Calc/blob/main/caculategif.gif" width="200" height="400">
+<img src="https://github.com/imfallah/ios-calculator/blob/main/public/6.png" width="200" height="400"></img>  <img src="https://github.com/imfallah/ios-calculator/blob/main/public/calculatorgif.gif" width="200" height="400">
 
 
 
 ### Video image of the APP 📺
 
-
+<img src="https://github.com/imfallah/ios-calculator/raw/main/public/ioscac.mp4" width="200" height="400">
 
 # `𝐂𝐨𝐧𝐧𝐞𝐜𝐭 𝐌𝐞`🎈🎃
 
